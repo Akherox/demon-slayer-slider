@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demon Slayer | Slider </title>
+
+    <link rel="shortcut icon" href="src/imagens/Logo.png" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="src/css/reset.css">
+
+    <link rel="stylesheet" href="src/css/estilos.css">
+
+    <link rel="stylesheet" href="src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img src="src/imagens/Logo.png" alt="pokébola" class="pokebola"/>
+      <h1 class="titulo">鬼滅の刃</h1>
+    </header>
+
+    <main class="demon-slider fundo">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="src/imagens/seta.png" alt="seta voltar" />
+      </button>
+
+      <ul class="lista-pokemons">
+        <li class="cartao selecionado fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Kamado Tanjiro</h2>
+            <p class="vida">HP 800</p>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/tanjiro.png" alt="Charizard" class="imagem-demon-slayer"/>
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">É o principal protagonista de Demon Slayer: Kimetsu no Yaiba. Ele é um membro de Kanoe dos Caçadores de Demônios, que se juntou a organização para caçar o responsável pelo assassinato de sua família e a transformação de sua irmã, Nezuko Kamado, em um demônio, enquanto também procurando uma cura para ela.</p>
+          </div>
+        </li>
+        <li class="cartao fundo-2">
+          <div class="informacoes">
+            <h2 class="nome">Agatsuma Zenitsu</h2>
+            <p class="vida">HP 300</p>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/zenitsu.png" alt="Pikachu" class="imagem-demon-slayer"/>
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">É um Caçador de Demônios. Ele é um companheiro de viagem e amigo de Tanjiro Kamado, sendo um dos principais protagonistas do Demon Slayer: Kimetsu no Yaiba. Zenitsu é um jovem de pele clara e olhos de aparência assustada e inclinados para baixo, que desbotam do marrom suave ao dourado.</p>
+          </div>
+        </li>
+
+        
+
+        <li class="cartao fundo-3">
+          <div class="informacoes">
+            <h2 class="nome">Hashibira Inosuke</h2>
+            <p class="vida">HP 1200</p>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/inosuke.png" alt="Mewtwo" class="imagem-demon-slayer"/>
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">É um Caçador de Demônios, sendo um dos amigos e companheiro de viagem de Tanjiro Kamado e um dos principais protagonistas de Kimetsu no Yaiba: Demon Slayer.</p>
+          </div>
+        </li>
+      </ul>
+
+      <button class="btn-seta" id="btn-avancar">
+        <img src="src/imagens/seta.png" alt="seta avançar" />
+      </button>
+    </main>
+  </body>
+  <script src="src/js/index.js"></script>
+</html>
